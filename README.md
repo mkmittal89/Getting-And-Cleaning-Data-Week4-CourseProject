@@ -11,5 +11,6 @@ The code file meets the objectives of the project by following steps mentioned b
 7. Merge the merged train and test datasets into one big dataset.
 8. Extract activityId, subjectId and all the features/columns containing 'mean' or 'std' from the merged dataset into a new dataset
 9. Group the data with respect to subjectId and activityId by calculating mean for the respective groups.
-10. Assign a new feature containing Activity labels by merging the new data set with activityLabels by 'activityId'
-11. Write the latest data set into a txt file.
+10. Order the data w.r.t SubjectId and ActivityID
+11. Assign a new feature containing Activity labels by merging the new data set with activityLabels by 'activityId'
+12. Write the latest data set into a txt file.
